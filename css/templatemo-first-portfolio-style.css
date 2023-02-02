@@ -12,13 +12,15 @@ https://templatemo.com/tm-578-first-portfolio
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #535da1;
-  --secondary-color:              #14B789;
-  --section-bg-color:             #f9f9f9;
+  --background:                   #565663;
+  --primary-color:                #324373;
+  --secondary-color:              #5C82F2;
+  --tertiary-color:               #266EFF;
+  --section-bg-color:             #373740;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #e9eaeb;
-  --featured-border-color:        #727aab;
+  --p-color:                      #CCCCCC;
+  --border-color:                 #666666;
+  --featured-border-color:        #A3A3A3;
 
   --body-font-family:             'DM Sans', sans-serif;
 
@@ -42,7 +44,7 @@ https://templatemo.com/tm-578-first-portfolio
 }
 
 body {
-    background: var(--white-color);
+    background: var(--background);
     font-family: var(--body-font-family); 
 }
 
@@ -51,12 +53,16 @@ body {
   TYPOGRAPHY               
 -----------------------------------------*/
 
+.border-bottom{
+  border-bottom-color: var(--featured-border-color)!important;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 
 h1,
@@ -116,7 +122,7 @@ button {
 }
 
 a {
-  color: var(--p-color);
+  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -321,11 +327,11 @@ strong {
 }
 
 .custom-link {
-	background-color: var(--primary-color);
+	background-color: var(--white-color);
 }
 
 .custom-link:hover {
-	background-color: var(--secondary-color);
+	background-color: var(--primary-color);
 }
 
 
@@ -350,7 +356,7 @@ strong {
 }
 
 .is-sticky .navbar-nav .nav-link {
-  color: var(--p-color);
+  color: var(--dark-color);
 }
 
 .is-sticky .navbar .custom-btn {
@@ -398,7 +404,7 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--section-bg-color);
+  color: var(--white-color);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
@@ -586,7 +592,7 @@ strong {
 
 .profile-small-title {
   border-right: 1px solid var(--border-color);
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   font-weight: var(--font-weight-bold);
   min-width: 140px;
   margin-right: 10px;
@@ -599,7 +605,7 @@ strong {
 }
 
 .profile-body p:nth-of-type(even) {
-  background: var(--white-color);
+  background: var(--background);
 }
 
 .about-image {
@@ -622,7 +628,7 @@ strong {
 }
 
 .featured-text {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 .featured-border-bottom {
